@@ -1,0 +1,112 @@
+# .gitignore for JetBrains IDEs (IntelliJ IDEA, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# User-specific stuff
+.idea/**/gradle.xml
+.idea/**/libraries/
+.idea/**/runConfigurations/
+.idea/**/targets/
+.idea/**/projectTemplates/
+
+# JetBrains specific files
+*.ipr
+*.iws
+
+# Java related files
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+bin/
+tmp/
+
+# VS Code specific files
+.vscode/
+.history/
+
+# Byte-compiled Python files
+*.py[cod]
+__pycache__/
+*.so
+
+# Python virtual environment
+env/
+venv/
+ENV/
+VENV/
+
+# Python distribution/packaging
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Java log files
+*.log
+
+# Maven specific files
+target/
+
+# Gradle specific files
+.gradle/
+build/
+out/
+!gradle-wrapper.jar
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Exclude all `.env` files for environment variables
+.env
+.env.*
+
+# General IDE-specific files
+*.swp
+*.swo
+*~
+
+# Exclude IntelliJ IDEA files
+out/
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Ignore JetBrains Rider project files
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Exclude JetBrains IDE-related folders
+.idea/
+
+# Ignore database folders
+.idea/dataSources/
+
+# Ignore code styles
+.idea/codeStyles/
+.idea/inspectionProfiles/
